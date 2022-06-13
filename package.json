@@ -7,10 +7,17 @@
     "watch": "parcel serve src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["mini", "game", "parcel", "node"],
+  "keywords": [
+    "mini",
+    "game",
+    "parcel",
+    "node"
+  ],
   "author": "https://github.com/melvinfr-code",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.6.0"
+    "buffer": "^6.0.3",
+    "parcel": "^2.6.0",
+    "socket.io-client": "^4.5.1"
   }
 }
