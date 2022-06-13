@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "watch": "parcel serve src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["mini", "game", "parcel", "node"],
+  "author": "https://github.com/melvinfr-code",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  }
 }
